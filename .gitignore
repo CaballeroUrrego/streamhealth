@@ -1,0 +1,38 @@
+# Build y Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Variables de entorno y configuracion local sensible
+.env
+.env.*
+!.env.example
+src/main/resources/application-local.properties
+src/main/resources/application-local.yml
+src/main/resources/application-secret.properties
+
+# IDEs y editores
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# Sistema operativo (Windows / macOS / Linux)
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs y archivos temporales
+*.log
+logs/
